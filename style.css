@@ -6,8 +6,9 @@
 :root {
     --primary-color: #34547a;
     --white: #ffffff;
+    --black: #000000;
     --grey-dark: #727272;
-    --grey-light: #eceff1;
+    --grey-light: #eeeff1;
     --font-size:16px;
 }
 @font-face {
@@ -24,14 +25,65 @@
     font-weight: 500;
     src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,500;1,75..100,500&display=swap');
 }
-
+h1 h2 h3{
+    font-weight: 500;
+}
+h1{
+    line-height: 1.64;
+}
+h2{
+    line-height: 1;
+}
+h3{
+    font-size: 1.3125rem;
+}
+p{
+    font-family: "Roboto", sans-serif;
+    width: 400px;
+    line-height: 1.64;
+    font-size: 1rem;
+}
+.header{
+    background-color: var(--grey-light);
+    padding: 79px 0 141px 0;
+}
 .container{
-    width: 1120px;
-margin: 0 auto;
+    max-width: 1120px;
+    margin-inline: auto;
+
 }
 html {
     font-size: var(--font-size);
     font-family: "Roboto", sans-serif;
 }
+.navigation__list{
+display: flex;
 
+}
+ul{
+    list-style: none;
+    line-height: 1.64;
+
+}
+a{
+    text-decoration: none;
+}
+nav{
+text-transform: uppercase;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+.description {
+    width: 540px;
+    color: var(--grey-dark);
+}
+.header__title{
+    margin-top: 146px;
+    margin-bottom: 30px;
+    color: var(--black);
+}
+.header__description{}
+.he
 
