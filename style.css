@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-color: #34547a;
+    --white: #ffffff;
+    --grey-dark: #727272;
+    --grey-light: #eceff1;
+    --font-size:16px;
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth@0,75..100;1,75..100&display=swap');
+
+
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,500;1,75..100,500&display=swap');
+}
+
+.container{
+    width: 1120px;
+margin: 0 auto;
+}
+html {
+    font-size: var(--font-size);
+    font-family: "Roboto", sans-serif;
+}
+
+
