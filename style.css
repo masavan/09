@@ -15,7 +15,11 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth@0,75..100;1,75..100&display=swap');
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth@0,75..100;1,75..100&display=swap'),
+url('./roboto/regular/Roboto-Regular.eot'), /* IE9 Compat Modes */
+url('./roboto/regular/Roboto-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+url('./roboto/regular/Roboto-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+url("./roboto/regular/Roboto-Regular.otf") format("opentype");
 
 
 }
@@ -23,7 +27,12 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,500;1,75..100,500&display=swap');
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,500;1,75..100,500&display=swap'),
+url('./roboto/medium/Roboto-Medium.eot'), /* IE9 Compat Modes */
+url('./roboto/medium/Roboto-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+url('./roboto/medium/Roboto-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+url("./roboto/Medium/Roboto-Medium.otf") format("opentype");
+
 }
 h1 h2 h3{
     font-weight: 500;
@@ -48,7 +57,7 @@ p{
 }
 .header{
     background-color: var(--grey-light);
-    padding: 79px 0 141px 0;
+    padding: 79px 0 141px 5px;
 }
 .container{
     max-width: 1120px;
@@ -78,9 +87,12 @@ button{
     color: var(--grey-dark);
 }
 .header__title{
-    margin-top: 146px;
-    margin-bottom: 30px;
+ padding-left: 2px;
+    margin-top: 144px;
+    margin-bottom: 35px;
     color: var(--black);
+    font-size: 3rem;
+    letter-spacing: 0;
 }
 .header__description{}
 .header__btn{
@@ -89,8 +101,11 @@ button{
     width: 225px;
     height: 65px;
     font-size: 1rem;
-    letter-spacing: 2px;
-    margin-top: 65px;
+    letter-spacing: 1px;
+    margin-top: 59px;
+    font-weight: 400;
+
+
 }
 /*navigation*/
 .navigation__list{
@@ -106,28 +121,35 @@ ul{
 }
 .navigation__link{
     color: var(--black);
-    font-size: var(--font-size);
-    font-weight: 500;
-    letter-spacing: 2px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.64;
+    font-size: 1.001rem;
+
+
 
 }
+
 .navigation__item:first-child {
+    padding-left: 2px;
     padding-right: 25px;
 }
 .navigation__item ~ .navigation__item {
-    padding: 0 25px;
+    padding: 0 29px;
 }
 
 /*About me*/
 .About {
-    padding: 112px 0 100px 0;
+    padding: 112px 0 87px 0;
 }
     .About__title {
-        margin-bottom: 50px;
+        margin-bottom: 42px;
         color: var(--black);
+        font-size: 2rem;
 
     }
 .About__description {
+
     margin: 0 auto;
 }
 
