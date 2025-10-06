@@ -197,11 +197,16 @@ ul{
 
 /*process */
 
+.Process{
+    padding: 105px 10px 100px 0;
+}
+
 .container__process{
-    padding-top: 87px;
-    padding-bottom: 100px;
+
+
 }
 .process__title{
+
     color: var(--black);
     font-size: 2rem;
     font-weight: 500;
@@ -210,11 +215,11 @@ ul{
 }
 .process__description{
     margin: 0 auto;
-    padding-top:50px;
+    padding-top:41px;
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.64;
-    padding-bottom: 57px;
+    padding-bottom: 49px;
 }
 .process__images__video{
 
@@ -258,7 +263,7 @@ height: 100%;
     color: var(--white);
 height: 12px;
     line-height: 1.64;
-    padding-top: 20px;
+    padding-top: 17px;
     font-size: 0.8125rem;
     font-weight: 400;
 }
@@ -267,6 +272,7 @@ height: 12px;
     height: 19px;
 line-height: 1;
 font-size: 1.3125rem;
+    font-weight: 400;
 
 }
 .process__wrapper{
